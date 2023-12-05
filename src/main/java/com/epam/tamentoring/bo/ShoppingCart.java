@@ -31,7 +31,7 @@ public class ShoppingCart {
         if (getProductIds().contains(product.getId())) {
             products.remove(product);
         } else {
-            throw new ProductNotFoundException("Product is not found in the cart: " + product.toString());
+            throw new ProductNotFoundException("Product is not found in the cart: " + product);
         }
     }
 
