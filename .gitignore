@@ -1,0 +1,16 @@
+### IntelliJ IDEA ###
+*.iml
+*.db
+*.log
+.idea
+target
+bin
+out
+
+### Mac OS ###
+.DS_Store
+
+#    Gradle   #
+###############
+.gradle
+*build/
